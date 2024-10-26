@@ -1,0 +1,146 @@
+ body{
+    background-image: linear-gradient(#D539F4,#727BE6);
+    height: 1000px;
+ }
+ 
+ 
+ 
+ 
+ li{
+    display: inline;
+    list-style: none;
+    position: relative;
+    text-align: end;
+
+}
+nav{
+    height: 60;
+    width: 984px;
+    text-align: center;
+    margin-left: 550px;
+    margin-top: 50px;
+
+}
+ul{
+    background-color:#262054;
+     text-align: end; 
+    padding: 10px; 
+    margin-bottom:0 ;
+    margin-top: 0;
+}
+ a{
+    color: white;
+    text-decoration: none;
+    text-transform: capitalize;
+    margin-left: 20px;
+}
+a:hover{
+    color: cornflowerblue;
+    text-decoration: overline;
+    
+}
+a:active{
+    scale:0.9;
+    color: #9d97c7;
+    
+    cursor: pointer;
+}
+
+img{
+    margin-left: -30px;
+    position: relative;
+    left: -450px; 
+    width: 50px;
+    margin-top: 10px;
+}
+header{
+    text-align: center;
+} 
+.pop{
+    color: aliceblue;
+    width: 100px;
+    height: 100px;
+    /* text-align: center; */
+    left: 0%;
+    margin-top: 70px;
+}
+
+.two{
+    width: 400px;
+    height:730px;
+    background-color: #262054;
+    text-align: center;
+    padding: 30px;
+    border: 3px;
+    color: white;
+    
+    
+}
+.one{
+    width: 980px;
+    height:790px; 
+    background-color:#2f266e;
+    border: 2px solid;
+    display: flex;
+    /* margin: 400px; */
+     margin-top:0px;
+    margin-left: 550px;
+    
+}
+.three{
+    width: 600px;
+    height: 790px;
+    border: 5px;
+    /* margin-top: 10%; */
+    background-color: aliceblue;
+    text-align: center;
+    
+
+
+    
+}
+.fit{
+    width: 600px;
+    height: 790px;
+     margin-left: 450px;
+   margin-top: -0px;  
+    
+    
+
+}
+ #one{
+    padding: 2px;
+    border:none;
+    background-color: #0885B7;
+      color: white; 
+      width: 100px;
+      height: 40px; 
+ }
+ button{
+    padding: 20px;
+    border-radius: 15px;
+  background-color:#D539F4;
+  color: white;
+  border: none;
+  height: 0px;
+  width: 250px;
+  font-size: large;
+  
+    
+}
+button:hover{
+    background-color: #807e7e;
+    transition: all 0.3s ease-in-out;
+}
+button:active{
+    transform: scale(0.9);
+}
+ input{
+    padding: 5px;
+    border-radius: 15px;
+    border: 2px;
+    text-align: justify;
+ }
+ input[type=radio]{
+      background-color: #D539F4;
+ }
